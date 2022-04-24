@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        password: hewanyu1114
+        url: jdbc:mysql://127.0.0.1:3306/flowable?characterEncoding=UTF-8&serverTimezone=UTC
+        username: root
+flowable:
+    # Close flowable async job
+    async-executor-activate: false
